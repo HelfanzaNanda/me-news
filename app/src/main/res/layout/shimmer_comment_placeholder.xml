@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/relative_account2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:id="@+id/view_img_user2"
+                android:background="@color/colorGrey"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <View
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/view_img_user2"
+                android:id="@+id/view_txt_name2"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/view_txt_name2"
+                android:layout_toEndOf="@id/view_img_user2"
+                android:id="@+id/view_txt_email2"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_below="@id/view_txt_email2"
+                android:layout_toEndOf="@id/view_img_user2"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/relative_account1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:id="@+id/view_img_user1"
+                android:background="@color/colorGrey"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <View
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/view_img_user1"
+                android:id="@+id/view_txt_name1"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/view_txt_name1"
+                android:layout_toEndOf="@id/view_img_user1"
+                android:id="@+id/view_txt_email1"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_below="@id/view_txt_email1"
+                android:layout_toEndOf="@id/view_img_user1"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/relative_account3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:id="@+id/view_img_user3"
+                android:background="@color/colorGrey"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <View
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/view_img_user3"
+                android:id="@+id/view_txt_name3"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/view_txt_name3"
+                android:layout_toEndOf="@id/view_img_user3"
+                android:id="@+id/view_txt_email3"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_below="@id/view_txt_email3"
+                android:layout_toEndOf="@id/view_img_user3"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/relative_account5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:id="@+id/view_img_user5"
+                android:background="@color/colorGrey"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <View
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/view_img_user5"
+                android:id="@+id/view_txt_name5"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/view_txt_name5"
+                android:layout_toEndOf="@id/view_img_user5"
+                android:id="@+id/view_txt_email5"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_below="@id/view_txt_email5"
+                android:layout_toEndOf="@id/view_img_user5"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_marginBottom="10dp"
+            android:id="@+id/relative_account4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_marginEnd="10dp"
+                android:id="@+id/view_img_user4"
+                android:background="@color/colorGrey"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+            <View
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/view_img_user4"
+                android:id="@+id/view_txt_name4"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_below="@id/view_txt_name4"
+                android:layout_toEndOf="@id/view_img_user4"
+                android:id="@+id/view_txt_email4"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+            <View
+                android:layout_below="@id/view_txt_email4"
+                android:layout_toEndOf="@id/view_img_user4"
+                android:background="@color/colorGrey"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

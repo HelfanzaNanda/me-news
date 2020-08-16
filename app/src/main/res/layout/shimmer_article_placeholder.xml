@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:elevation="2dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:id="@+id/relative_account1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/view_img_user1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"/>
+
+                <View
+                    android:layout_marginBottom="16dp"
+                    android:layout_toEndOf="@id/view_img_user1"
+                    android:id="@+id/view_txt_name1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"/>
+
+                <View
+                    android:layout_below="@id/view_txt_name1"
+                    android:layout_toEndOf="@id/view_img_user1"
+                    android:id="@+id/view_txt_email1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:id="@+id/view_img_article1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"/>
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@id/view_img_article1"
+                    android:id="@+id/view_txt_title1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@id/view_txt_title1"
+                    android:id="@+id/view_txt_content1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/view_txt_content1"
+                    android:id="@+id/view_txt_count_comment1"
+                    android:background="@color/colorGrey"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:elevation="2dp"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginBottom="10dp"
+                android:id="@+id/relative_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginEnd="10dp"
+                    android:id="@+id/view_img_user"
+                    android:background="@color/colorGrey"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"/>
+
+                <View
+                    android:layout_marginBottom="16dp"
+                    android:layout_toEndOf="@id/view_img_user"
+                    android:id="@+id/view_txt_name"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"/>
+
+                <View
+                    android:layout_below="@id/view_txt_name"
+                    android:layout_toEndOf="@id/view_img_user"
+                    android:id="@+id/view_txt_email"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:id="@+id/view_img_article"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"/>
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@id/view_img_article"
+                    android:id="@+id/view_txt_title"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <View
+                    android:layout_marginBottom="18dp"
+                    android:layout_below="@id/view_txt_title"
+                    android:id="@+id/view_txt_content"
+                    android:background="@color/colorGrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"/>
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@id/view_txt_content"
+                    android:id="@+id/view_txt_count_comment"
+                    android:background="@color/colorGrey"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

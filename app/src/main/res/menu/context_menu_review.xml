@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_menu_edit"
+        android:title="Edit">
+
+    </item>
+    <item
+        android:id="@+id/context_menu_copy"
+        android:title="Salin">
+
+    </item>
+    <item
+        android:id="@+id/context_menu_delete"
+        android:title="Hapus">
+    </item>
+
+    <item
+        android:id="@+id/context_menu_paste"
+        android:title="Paste">
+    </item>
+</menu>
